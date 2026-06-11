@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  aeroassist:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=gemma2:9b
+      - DEBUG_MODE=False
+    depends_on:
+      - ollama
+    networks:
+      - aeroassist-network
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_KEEP_ALIVE=24h
+    networks:
+      - aeroassist-network
+    command: serve
+
+volumes:
+  ollama_data:
+
+networks:
+  aeroassist-network:
+    driver: bridge

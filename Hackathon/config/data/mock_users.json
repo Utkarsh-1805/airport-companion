@@ -1,0 +1,14 @@
+{
+  "user_id": "powermind-demo",
+  "flight_id": "AI-101",
+  "gate": "B4",
+  "boarding_time": "14:30",
+  "status": "On-time",
+  "created_at": "2026-05-03T12:00:00Z",
+  "flight_number": "AI-101",
+  "terminal": "Terminal 2",
+  "origin": "DEL",
+  "destination": "DXB",
+  "source": "form",
+  "updated_at": "2026-06-05T14:53:45.831690+00:00"
+}

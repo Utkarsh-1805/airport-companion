@@ -1,0 +1,125 @@
+{
+  "updated_at": "2026-05-04T10:00:00+05:30",
+  "note": "Edit any value in this file and save. The backend reads it fresh on every request, and the frontend polls /realtime every few seconds, so changes appear live without restarting anything.",
+  "flights": [
+    {
+      "number": "AI203",
+      "airline": "Air India",
+      "destination_code": "DEL",
+      "destination_city": "Delhi",
+      "gate": "B9",
+      "scheduled_departure": "10:31",
+      "boarding_time": "10:00",
+      "status": "Boarding",
+      "delay_minutes": 0,
+      "remarks": "Boarding now at Gate B4. Final call in 15 minutes."
+    },
+    {
+      "number": "UK551",
+      "airline": "Vistara",
+      "destination_code": "GOI",
+      "destination_city": "Goa",
+      "gate": "A5",
+      "scheduled_departure": "11:15",
+      "boarding_time": "10:45",
+      "status": "On Time",
+      "delay_minutes": 0,
+      "remarks": ""
+    },
+    {
+      "number": "BA138",
+      "airline": "British Airways",
+      "destination_code": "LHR",
+      "destination_city": "London Heathrow",
+      "gate": "B8",
+      "scheduled_departure": "13:45",
+      "boarding_time": "13:00",
+      "status": "Scheduled",
+      "delay_minutes": 0,
+      "remarks": ""
+    },
+    {
+      "number": "SQ421",
+      "airline": "Singapore Airlines",
+      "destination_code": "SIN",
+      "destination_city": "Singapore",
+      "gate": "B10",
+      "scheduled_departure": "14:20",
+      "boarding_time": "13:35",
+      "status": "Delayed",
+      "delay_minutes": 35,
+      "remarks": "Delayed 35 min due to inbound aircraft late arrival. New departure 14:55."
+    },
+    {
+      "number": "6E224",
+      "airline": "IndiGo",
+      "destination_code": "BLR",
+      "destination_city": "Bengaluru",
+      "gate": "A3",
+      "scheduled_departure": "12:05",
+      "boarding_time": "11:35",
+      "status": "On Time",
+      "delay_minutes": 0,
+      "remarks": ""
+    }
+  ],
+  "security_wait": [
+    {
+      "checkpoint_id": "Sec_Hub",
+      "checkpoint_name": "Central Security Hub",
+      "wait_minutes": 12,
+      "lanes_open": 4,
+      "queue_state": "moderate"
+    },
+    {
+      "checkpoint_id": "Sec_Lane_T1_F",
+      "checkpoint_name": "Security Family Lane T1",
+      "wait_minutes": 6,
+      "lanes_open": 2,
+      "queue_state": "short"
+    },
+    {
+      "checkpoint_id": "Sec_Lane_T2_F",
+      "checkpoint_name": "Security Family Lane T2",
+      "wait_minutes": 9,
+      "lanes_open": 2,
+      "queue_state": "moderate"
+    }
+  ],
+  "immigration_wait": [
+    {
+      "checkpoint_id": "Imm_Hub",
+      "checkpoint_name": "Immigration Hub",
+      "wait_minutes": 18,
+      "lanes_open": 6,
+      "queue_state": "long"
+    },
+    {
+      "checkpoint_id": "Imm_EGate_W",
+      "checkpoint_name": "E-Gates West",
+      "wait_minutes": 4,
+      "lanes_open": 4,
+      "queue_state": "short"
+    }
+  ],
+  "shop_wait": [
+    {
+      "id": "shop_01",
+      "name": "BrewHub",
+      "wait_minutes": 5,
+      "queue_state": "short"
+    },
+    {
+      "id": "shop_05",
+      "name": "MediQuick",
+      "wait_minutes": 3,
+      "queue_state": "short"
+    },
+    {
+      "id": "shop_03",
+      "name": "TechSpot",
+      "wait_minutes": 0,
+      "queue_state": "open"
+    }
+  ]
+}
