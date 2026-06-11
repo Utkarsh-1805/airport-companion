@@ -1,0 +1,25 @@
+# AIRPORT NAVIGATION & TIME ESTIMATES
+- Terminal 1 Entrance to Check-in Counters: 3 minutes walking.
+- Check-in to Main Security Checkpoint: 5 minutes walking.
+- Main Security Checkpoint to Gate A (Domestic): 10 minutes walking.
+- Main Security Checkpoint to Gate B (International): 15 minutes walking.
+- Gate A to Baggage Claim: 12 minutes walking.
+- Transfer desk to Terminal 2: 20 minutes via shuttle bus (shuttles arrive every 10 minutes).
+
+# FOOD & DINING
+- Spice Route Kitchen: Located near Gate A4. Offers authentic Indian cuisine. Popular item: Masala Dosa (Preparation time: 10 minutes).
+- Burger Haven: Located in the central food court. Fast food. 
+- Filter Coffee Stand: Located near Security Checkpoint. Great for a quick caffeine boost.
+
+# DUTY-FREE SHOPPING & SKUS
+- Global Duty-Free Haven: Located just past the international security checkpoint near Gate B1. 
+- Current Offers: Get 20% off all luxury perfumes when you show your boarding pass.
+- Available SKUs:
+  - SKU-PERF-01: Chanel No. 5 Perfume (Discount applies)
+  - SKU-CHOC-99: Giant Toblerone Chocolate Bar (Buy 2 get 1 free)
+  - SKU-ELEC-42: Noise-canceling headphones (Standard price)
+
+# FACILITIES & SERVICES
+- Premium Lounge: Located on Level 2 above the central food court. Requires a business class ticket or a $40 entry fee. Includes free Wi-Fi and buffet.
+- Wheelchair Assistance: Available directly at the Terminal 1 Entrance. Call extension 404 from any airport phone.
+- Restrooms: Located next to every even-numbered gate (A2, A4, B2, B4).
