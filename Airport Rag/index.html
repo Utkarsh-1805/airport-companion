@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSMIA Airport Navigation — moved</title>
+    <style>
+      :root { color-scheme: light dark; }
+      html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, sans-serif; background: #0f172a; color: #e2e8f0; }
+      .wrap { display: grid; place-items: center; height: 100%; padding: 24px; box-sizing: border-box; text-align: center; }
+      .card { max-width: 640px; padding: 32px 36px; background: #111c33; border: 1px solid #1e2a44; border-radius: 16px; box-shadow: 0 24px 48px rgba(0,0,0,0.35); }
+      h1 { margin: 0 0 12px; font-size: 22px; }
+      p { margin: 8px 0; line-height: 1.5; opacity: 0.88; }
+      code { background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+      a { color: #93c5fd; }
+      .badge { display: inline-block; margin-bottom: 14px; padding: 4px 10px; border-radius: 999px; background: #1d4ed822; color: #93c5fd; font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <span class="badge">Replaced</span>
+        <h1>The standalone Airport Rag map has been retired.</h1>
+        <p>
+          The interactive 3D airport map is now part of the
+          <strong>Powermind 2</strong> companion app, served from
+          <code>../powermind2</code>, and the standalone React demo at
+          <code>../src</code>.
+        </p>
+        <p>
+          All airport data (gates, shops, restrooms, security, roadways) now
+          lives in
+          <code>powermind2/src/map/data/airportData.js</code>
+          and is the single source of truth for the application.
+        </p>
+        <p>
+          Run <code>npm install &amp;&amp; npm run dev</code> inside
+          <code>powermind2</code> or <code>src</code> to launch the new map.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
