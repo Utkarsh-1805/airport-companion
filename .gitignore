@@ -1,0 +1,133 @@
+# =============================================================
+# Airport Companion - .gitignore
+# =============================================================
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# ---------- Secrets / Env ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+kaggle.json
+
+# ---------- Logs ----------
+*.log
+logs/
+server-out.log
+server-err.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =============================================================
+# Python (Hackathon/)
+# =============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# uv / poetry
+# (keep uv.lock if you want reproducible installs; uncomment to skip)
+# uv.lock
+
+# Local model caches
+.chroma/
+chroma_db/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+huggingface/
+.cache/
+
+# =============================================================
+# Node / JavaScript (Airport Rag/, powermind2/)
+# =============================================================
+node_modules/
+dist/
+build/
+.next/
+out/
+.vite/
+.parcel-cache/
+.turbo/
+coverage/
+.nyc_output/
+
+# Lock files - keep package-lock.json, ignore others by preference
+# (commenting out to keep all lockfiles)
+# yarn.lock
+# pnpm-lock.yaml
+
+# =============================================================
+# Misc large/binary
+# =============================================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.exe
+*.msi
+*.dmg
+*.iso
+
+# Generated / exports
+*.glb.tmp
+exports/
+tmp/
+temp/
+
+# Git history rebuild script
+rebuild_history.ps1
+
