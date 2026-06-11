@@ -1,0 +1,29 @@
+{
+  "airport": {
+    "id": "csmia-mumbai-sim",
+    "name": "CSMIA Inspired International Airport Navigation Model",
+    "style": "clean semi-realistic low-poly glass airport for interactive WebGL navigation",
+    "terminals": ["T1 Domestic", "T2 International"],
+    "compatible_targets": ["Three.js", "WebGL", "Unity via GLB export"]
+  },
+  "exports": {
+    "runtime_model": "Click Export GLB in the app to serialize the generated Three.js scene.",
+    "navigation_graph": "./navigation-graph.json",
+    "shop_metadata": "./shop-metadata.json"
+  },
+  "features": [
+    "Two terminals with entry, check-in, security, immigration, lounges, boarding gates, retail, food court, restrooms, elevators, escalators, and baggage claim",
+    "A1-A10 and B1-B10 boarding gates",
+    "Clickable shops, gates, services, graph nodes, and walkable edges",
+    "Dijkstra shortest path routing from assistant text such as Take me to Gate B4",
+    "Animated glowing path, smooth camera transitions, top-down and free camera controls",
+    "Low-poly moving passengers, day/night lighting toggle, and flight info screens"
+  ],
+  "assistant_examples": [
+    "Take me to Gate B4",
+    "Nearest washroom",
+    "Find BrewHub",
+    "Find TechSpot",
+    "Take me to Gate A5"
+  ]
+}

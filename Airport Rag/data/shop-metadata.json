@@ -1,0 +1,67 @@
+[
+  {
+    "id": "shop_01",
+    "category": "food",
+    "name": "BrewHub",
+    "position": [8, 0.55, 13.5],
+    "terminal": "T2",
+    "tag": "coffee_shop",
+    "location_zone": "Retail & Food Court Zone",
+    "offers": "Coffee and croissant saver combo",
+    "rating": 4.6,
+    "wait_time": "4-8 mins",
+    "open_hours": "24/7"
+  },
+  {
+    "id": "shop_02",
+    "category": "books",
+    "name": "ReadZone",
+    "position": [18, 0.55, 13.5],
+    "terminal": "T2",
+    "tag": "book_store",
+    "location_zone": "Retail & Food Court Zone",
+    "offers": "Bestseller bundle at airport pricing",
+    "rating": 4.4,
+    "wait_time": "0-3 mins",
+    "open_hours": "06:00-23:00"
+  },
+  {
+    "id": "shop_03",
+    "category": "electronics",
+    "name": "TechSpot",
+    "position": [25, 0.55, 13.5],
+    "terminal": "T2",
+    "tag": "electronics",
+    "location_zone": "Retail & Food Court Zone",
+    "offers": "15% off power banks and travel adapters",
+    "rating": 4.3,
+    "wait_time": "0-5 mins",
+    "open_hours": "06:00-23:30"
+  },
+  {
+    "id": "shop_04",
+    "category": "fashion",
+    "name": "StyleDeck",
+    "position": [34, 0.55, 13.5],
+    "terminal": "T2",
+    "tag": "fashion_store",
+    "location_zone": "Retail & Food Court Zone",
+    "offers": "Travel hoodie and scarf offer",
+    "rating": 4.1,
+    "wait_time": "0-4 mins",
+    "open_hours": "08:00-23:00"
+  },
+  {
+    "id": "shop_05",
+    "category": "pharmacy",
+    "name": "MediQuick",
+    "position": [49, 0.55, 11.5],
+    "terminal": "T2",
+    "tag": "pharmacy",
+    "location_zone": "Services",
+    "offers": "Travel wellness kit",
+    "rating": 4.5,
+    "wait_time": "2-5 mins",
+    "open_hours": "24/7"
+  }
+]
