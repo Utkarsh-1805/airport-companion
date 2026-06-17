@@ -127,7 +127,7 @@ Environment variables read by the backend:
 ## 👤 Author
 
 **Sweta Rana**
-[GitHub @ranasweta](https://github.com/ranasweta)
+[GitHub @Utkarsh](https://github.com/Utkarsh-1805)
 
 ---
 
